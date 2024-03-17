@@ -15,13 +15,9 @@ class Program
 
         HTMLBody body = new();
 
-        body.CanBuild = true;
-
         body.Img("https://www.lotus-qa.com/wp-content/uploads/2020/02/testing.jpg");
         body.H1("Hello World!");
         body.P("This is a html test");
-        
-        body.CanBuild = false;
         
         Mail exampleMail = new()
         {
