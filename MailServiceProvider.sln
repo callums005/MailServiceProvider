@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServiceProvider", "MailServiceProvider\MailServiceProvider.csproj", "{E5F7CEE1-9499-4D57-8F0E-6839161E3456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A79A568C-2D1A-40F4-9006-05DAFF2F8B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F7CEE1-9499-4D57-8F0E-6839161E3456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F7CEE1-9499-4D57-8F0E-6839161E3456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F7CEE1-9499-4D57-8F0E-6839161E3456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F7CEE1-9499-4D57-8F0E-6839161E3456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79A568C-2D1A-40F4-9006-05DAFF2F8B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79A568C-2D1A-40F4-9006-05DAFF2F8B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79A568C-2D1A-40F4-9006-05DAFF2F8B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79A568C-2D1A-40F4-9006-05DAFF2F8B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
