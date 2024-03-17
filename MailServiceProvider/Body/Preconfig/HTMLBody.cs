@@ -52,6 +52,14 @@ public class HTMLBody : IBody
 
         Content += $"<a href='{href}'>{inner}</a>";
     }
+
+    public void Img(string src, string alt = "Alternative text has not been implemented for this image.")
+    {
+        if (!CanBuild)
+            return;
+
+        Content += $"<img src='{src}' alt='{alt}' />";
+    }
     
     public void DivStart(string classname)
     {
